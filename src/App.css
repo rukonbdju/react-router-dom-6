@@ -20,4 +20,30 @@ button{
   font-size: medium;
   cursor: pointer;
 }
+form{
+  max-width:550px;
+  margin:30px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+form input{
+  padding: 10px;
+
+}
+
+small{
+  cursor: pointer;
+  color: blue;
+}
+small:hover{
+
+  text-decoration-style: solid;
+  text-decoration-color: blue;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+
+}
+
 
